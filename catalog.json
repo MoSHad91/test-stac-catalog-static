@@ -1,0 +1,35 @@
+{
+  "type": "Catalog",
+  "id": "DKRZ",
+  "stac_version": "1.0.0",
+  "description": "\n    This catalog references catalogs of DKRZ projects \n    that provide and share data on DKRZ data storages and repositories\n    ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://gitlab.dkrz.de/data-infrastructure-services/dkrz-data-catalog/-/raw/main/stac/dkrz_catalog.json",
+      "type": "application/json",
+      "title": "The DKRZ Data Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://gitlab.dkrz.de/data-infrastructure-services/dkrz-data-catalog/-/raw/main/stac/dkrz_catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://gitlab.dkrz.de/data-infrastructure-services/dkrz-data-catalog/-/raw/main/stac/ERA5/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://gitlab.dkrz.de/data-infrastructure-services/dkrz-data-catalog/-/raw/main/stac/NextGEMs/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://gitlab.dkrz.de/data-infrastructure-services/dkrz-data-catalog/-/raw/main/stac/CMIP6/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "The DKRZ Data Catalog"
+}
